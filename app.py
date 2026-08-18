@@ -43,13 +43,12 @@ model_path_char = Path(config.DETECTION_MODEL_DIR, 'yolov8n_char_new.pt')
 
 # load pretrained DL model
 try:
-
-    
     model_object = load_model(model_path_object)
     model_char = load_model(model_path_char)
 except Exception as e:
     st.error(f"Unable to load model. Please check the specified path: {model_path_object}")
-
+    st.exception(e)
+    st.stop()
 # image/video options
 st.sidebar.header("Image/Video Config")
 source_selectbox = st.sidebar.selectbox(

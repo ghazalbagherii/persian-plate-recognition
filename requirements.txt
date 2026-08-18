@@ -39,7 +39,7 @@ seaborn>=0.11.0
 
 # Extras --------------------------------------
 psutil  # system utilization
-setuptools>=65.5.0  # برای pkg_resources
+setuptools<81
 # thop>=0.1.1  # FLOPs computation
 # ipython  # interactive notebook
 # albumentations>=1.0.3

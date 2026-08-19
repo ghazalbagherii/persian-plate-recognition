@@ -17,15 +17,6 @@ YOLOv8 Ultralytics and all of Requirements for YOLOv8
 use python 3.10
 
 
-## Demo
-
-
-
-https://github.com/shahabbai/PersianPlateRecog/assets/133869713/ba761742-4dfa-4f29-a016-e3876cf0d8cf
-
-
-
-
 ## Installation
 ```
 pip install ultralytics==8.0.104
@@ -41,7 +32,7 @@ python main.py
 
 2.use my streamlit link on your browser(this option no need any installation):
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://shahabbai-persianplaterecog-app-84qgn4.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://persian-plate-fa.streamlit.app/)
 
 
 3.use streamlit app.py and run it locally on your pc:
@@ -51,22 +42,11 @@ pip install streamlit
 cd PersianPlateRecog
 streamlit run app.py
 ```
-## Datasets
-Created two datasets :
-
-1. Dataset for detection cars and plates [Link](https://universe.roboflow.com/shahab-jafari-1vorv/persian-car)
-
-2. Dataset for detection chars of the plates [Link](https://universe.roboflow.com/shahab-jafari-1vorv/persian-plate-characters-mvinj)
 ## Models
 for simplicity of computational using yolov8s for cars and plates detection and using yolov8n for character detection
 ## Training Results
 1. yolov8s model for cars and plates detection
 
-![results (1)](https://github.com/shahabbai/PersianPlateRecog/assets/133869713/8cb0e04b-edc9-4f2a-b560-3daec538af6c)
-
 2. yolov8n model for characters detection
 
-
-
-![yolov8n_char_new_small](https://github.com/shahabbai/PersianPlateRecog/assets/133869713/59db56cf-94a4-4289-ad60-b8f58225b7c2)
 
